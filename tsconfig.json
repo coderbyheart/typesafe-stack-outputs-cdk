@@ -1,0 +1,9 @@
+{
+  "extends": "@nordicsemiconductor/asset-tracker-cloud-code-style/tsconfig.json",
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ES2022",
+    "noEmit": true
+  }
+}

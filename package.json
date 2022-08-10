@@ -1,0 +1,22 @@
+{
+  "name": "typesafe-stack-outputs-cdk",
+  "version": "0.0.0-development",
+  "description": "Demonstrates how to make Stack outputs type-safe",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-cloudformation": "3.145.0",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.109",
+    "@nordicsemiconductor/cloudformation-helpers": "7.0.6",
+    "aws-cdk-lib": "2.37.1",
+    "cdk": "2.37.1",
+    "constructs": "10.1.71",
+    "tsx": "3.8.1"
+  },
+  "prettier": "@nordicsemiconductor/asset-tracker-cloud-code-style/.prettierrc"
+}
