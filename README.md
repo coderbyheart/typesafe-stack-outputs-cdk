@@ -42,9 +42,9 @@ which simplifies fetching stack outputs and accepts a type for defining which
 outputs the stack returns. This will make `outputs` properly typed.
 
 ```typescript
-const outputs = await stackOutput(new CloudFormationClient({}))<StackOutputs>(
-  "MyStack"
-);
+const cf = new CloudFormationClient({});
+
+const outputs = await stackOutput(cf)<StackOutputs>("MyStack");
 
 console.log("Bucket name:", outputs.bucketName);
 ```
